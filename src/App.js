@@ -15,7 +15,7 @@ const EmployeeManagementTool = ({ societe, isAdminMode = false }) => {
   const [editingCell, setEditingCell] = useState(null);
   const [newEmployee, setNewEmployee] = useState(null);
 
-  const API_BASE = 'http://wk0gkc8oo4w0kw4o0ko088gk.144.76.185.53.sslip.io/api';
+  const API_BASE = 'https://displayer.mtwitt.com/api';
 
   // API calls
   const apiCall = async (endpoint, options = {}) => {
